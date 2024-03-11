@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-print(f"{98} Battery street")
-
+n=98
+print(f"{n} Battery street\n")
