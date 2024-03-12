@@ -1,8 +1,6 @@
 #!/usr/bin/python3
 def islower(c):
     for char in c:
-        r = ""
-        if ord(char) >= 97 and ord(char) <= 122:
+        if ord('a') <= ord(char) <= ord('z') or char.isdigit():
             return True
-        else:
-            return False
+    return False
