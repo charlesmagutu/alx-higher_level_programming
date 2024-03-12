@@ -1,7 +1,0 @@
-#!/usr/bin/python3
-
-print("01", end="")
-for i in range(2, 10):
-    print(f", {i:02d}", end="")
-    for j in range(i + 1, 10):
-        print(f", {int(str(i) + str(j)):02d}", end="")
