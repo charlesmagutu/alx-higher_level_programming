@@ -1,3 +1,2 @@
-import os
-os.write("#pythoniscool")
-
+#!/usr/bin/python3
+import py_print
