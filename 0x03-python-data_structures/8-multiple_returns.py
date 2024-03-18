@@ -6,5 +6,5 @@ def multiple_returns(sentence):
     if ln > 0:
         first = sentence[0]
         return ln,first
-    return None
+    return ln, None
 
