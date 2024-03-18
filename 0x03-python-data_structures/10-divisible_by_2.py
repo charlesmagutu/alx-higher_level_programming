@@ -3,9 +3,9 @@
 
 def divisible_by_2(my_list=[]):
     for x in my_list:
-        l = []
+        lis = []
         if x % 2 == 0:
-            l.append(True)
+            lis.append(True)
         else:
-            l.append(False)
-        return l
+            lis.append(False)
+        return lis
