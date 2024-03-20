@@ -2,6 +2,4 @@
 
 
 def common_elements(set_1, set_2):
-    for x in set_1:
-        for x in set_2:
-            return x
+    return set_1 & set_2
