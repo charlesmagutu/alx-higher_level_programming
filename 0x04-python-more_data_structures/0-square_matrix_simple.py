@@ -2,7 +2,5 @@
 
 
 def square_matrix_simple(matrix=[]):
-    transpose = []
-    for x in range(3):
-        transpose.append([row[x] for row in matrix])
-    return transpose
+    """Compute the square value of all integers of a matrix."""
+    return ([list(map(lambda x: x * x, row)) for row in matrix])
